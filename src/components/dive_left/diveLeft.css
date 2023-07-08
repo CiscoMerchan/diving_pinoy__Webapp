@@ -68,3 +68,39 @@
   /* margin-left: 10rem; */
   margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 550px) {
+  .webapp__diveleft {
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    
+    
+   }
+
+   .webapp__diveleft-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: auto;
+    margin-bottom: 3rem;
+  }
+
+  .webapp__diveleft-content {
+   
+    padding: 0;
+  
+  }
+ .webapp__diveleft-img img:last-child{
+  position:relative ;
+  z-index: 0;
+  margin: 0;
+  display: none;
+
+}
+}

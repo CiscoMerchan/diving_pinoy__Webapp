@@ -1,7 +1,7 @@
 import React from 'react';
 import './article.css';
 
-const Article = ({imgUrl, date, title}) => {
+const Article = ({imgUrl, date, title, text}) => {
   return (
     <div className='webapp__blog-container_article '>
    
@@ -14,6 +14,7 @@ const Article = ({imgUrl, date, title}) => {
         <div>
           <p>{date}</p>
           <h3>{title}</h3>
+          <p>{text}</p>
         </div>
         <p>Read Full Article</p>  
       </div>

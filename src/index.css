@@ -2,9 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
 :root {
-  --font-subtitle: 'Monoton',sans-serif;
+  /* --font-subtitle: 'Monoton',sans-serif; */
+  --font-subtitle:'Krona One', sans-serif;
   --font-family: 'Krona One', sans-serif;
-  --color-main: #046380;
+  --color-bg: #046380;
+  --color-main:#FFF;
   --color-shadow: #c7f2fd;
 
   

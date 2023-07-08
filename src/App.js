@@ -13,8 +13,10 @@ function App() {
     <Dive />
     <div className='bar'/>
     <About />
-    <Footer />
+    <div className='bar'/>
     <Blog />
+    <Footer />
+    
     </div>
   );
 }

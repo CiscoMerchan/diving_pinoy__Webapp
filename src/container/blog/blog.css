@@ -16,11 +16,13 @@
   font-size: 62px;
   line-height: 75px;
   letter-spacing: -0.04em;
+  color: var(--color-main);
 }
 
 .webapp__blog-container {
   display: flex;
   flex-direction: row;
+ 
 }
 
 .webapp__blog-container_groupA {

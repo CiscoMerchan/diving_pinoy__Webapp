@@ -2,10 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: var(--color-main);
+  background: var(--color-bg);
   /* background-image: url("../../assets/img/P7180449.JPG");
   object-fit: contain; */
   padding: 1rem 1rem;
+  margin: 0;
 }
 
 .webapp__navbar-links {
@@ -132,7 +133,7 @@ flex-direction: row;
 
 @media screen and (max-width: 550px) {
   .webapp__navbar {
-     padding: 2rem ;
+     padding: 0 ;
   }
   
   .webapp__navbar-sign {
@@ -144,7 +145,22 @@ flex-direction: row;
   }
 
   .webapp__navbar-menu_container-links-sign {
-      display: block;
+      display: none;
   }
+
+  .webapp__navbar-links-logo {
+    margin-left: 30%;
+    z-index: 2;
+    height: 150px;
+    width: 150px;
+   
+  }
+  
+  .webapp__navbar-links-logo img{
+     
+    width: 1150%;
+    height: 110%;
+  }
+
 }
 

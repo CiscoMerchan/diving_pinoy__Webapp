@@ -3,10 +3,10 @@
   color: var(--color-main);
   font-weight: 800;
   font-size: 32px;
-  line-height: 42px;
+  line-height: 82px;
   letter-spacing: 0.07rem;
   word-spacing: 1rem;
-  text-shadow: -4px -3px var(--color-shadow);
+  /* text-shadow: -4px -3px var(--color-main); */
 
   margin-bottom: 3rem;
 

@@ -14,12 +14,12 @@ const Blog = () => {
       </div>
       <div className='webapp__blog-container'>
         <div className='webapp__blog-container_groupA'>
-         <Article imgUrl={blog01} date="Sept 31 2023" title="Lets dive into the future"/>
+         <Article imgUrl={blog01} date="Sept 31 2023" title="Surface interval" text={'Ang Lorem Ipsum ay ginagamit na modelo ng industriya ng pagpriprint at pagtytypeset.Ang Lorem Ipsum ay ginagamit na modelo ng industriya ng na modelo ng industriya ng pagpriprint at pagtytypeset. Ang Lorem Ipsum ang naging .'}/>
           
         </div> 
         <div className='webapp__blog-container_groupB'>
-         <Article imgUrl={blog02} date="Sept 29 2023" title="Lets dive into the future"/>
-         <Article imgUrl={blog03} date="Sept 25 2023" title="Lets dive into the future"/>
+         <Article imgUrl={blog02} date="Sept 29 2023" title="Wreck dive" text={'Ang Lorem Ipsum ay ginagamit na modelo ng industriya ng na  ...'}/>
+         <Article imgUrl={blog03} date="Sept 25 2023" title="Diversity" text={'Ang Lorem Ipsum ay ginagamit na modelo ng industriya ng na modelo ng ...'}/>
          
           
         </div>    

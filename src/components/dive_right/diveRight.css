@@ -68,3 +68,40 @@
   /* margin-left: 10rem; */
   margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 550px) {
+  .webapp__diveright {
+    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    
+    
+   }
+
+   .webapp__diveright-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: auto;
+    margin-bottom: 3rem;
+  }
+
+  .webapp__diveright-content {
+   
+    padding: 0;
+  
+  }
+ .webapp__diveright-img img:last-child{
+  position:relative ;
+  z-index: 0;
+  margin: 0;
+  display: none;
+  
+
+}
+}
