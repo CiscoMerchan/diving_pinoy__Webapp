@@ -1,7 +1,9 @@
 import './App.css';
 import './index.css'
 import { Navbar } from './components';
-import { Header, Dive  } from './container';
+import { Header, Dive, About, Footer   } from './container';
+import Blog from './container/blog/Blog';
+
 
 function App() {
   return (
@@ -9,6 +11,10 @@ function App() {
     <Navbar />
     <Header />
     <Dive />
+    <div className='bar'/>
+    <About />
+    <Footer />
+    <Blog />
     </div>
   );
 }

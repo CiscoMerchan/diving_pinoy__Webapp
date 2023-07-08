@@ -1,0 +1,27 @@
+.more_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  background-color: var(--color-shadow);
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+}
+
+.more_btn :hover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  background-color: var(--color-main);
+  color: #fff;
+  border-radius: 0.25rem;
+  
+}
+
+.more_btn a {
+  font-family: var(--font-family);
+  cursor: pointer;
+}

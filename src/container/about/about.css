@@ -1,0 +1,17 @@
+.webapp__about {
+  /* background-color: ;   */
+}
+.webapp__about-title {
+    font-family: var(--font-subtitle);
+    color: var(--color-main);
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 42px;
+    letter-spacing: 0.07rem;
+    word-spacing: 1rem;
+    text-shadow: -4px -3px var(--color-shadow);
+  
+    margin-bottom: 3rem;
+  
+  
+  }
