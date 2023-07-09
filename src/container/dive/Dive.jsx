@@ -1,6 +1,6 @@
 import React from 'react';
 import './dive.css';
-import { DiveLeft, DiveRight, BookingBtn } from '../../components';
+import { DiveLeft, DiveRight, BookingBtn  } from '../../components';
 import  dive_A1  from '../../assets/img/PC091068MM.JPG';
 import  dive_A2 from '../../assets/img/IMG_20160506_175832.jpg';
 import  funpic01 from '../../assets/img/P6270968.JPG';
