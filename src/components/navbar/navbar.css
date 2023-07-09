@@ -12,7 +12,7 @@
 .webapp__navbar-links {
   flex: 1;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
@@ -23,6 +23,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
   
 }
 
@@ -36,7 +37,8 @@
 
 .webapp__navbar-links_container {
 display: flex;
-flex-direction: row;  
+flex-direction: row;
+
 }
 
 .webapp__navbar-sign {
@@ -85,6 +87,7 @@ flex-direction: row;
 }
 
 .webapp__navbar-menu_container {
+  z-index: 5;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;

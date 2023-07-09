@@ -11,6 +11,7 @@ const Footer = () => {
       <div className='webapp__footer-btn'>
         <p>Book Right Now!</p>
       </div>
+      
       <div className='webapp__footer-links'>
         <div className='webapp__footer-links_logo'>
           <img src={logo} alt='logo'/>

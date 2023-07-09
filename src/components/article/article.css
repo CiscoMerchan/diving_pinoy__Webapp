@@ -50,8 +50,12 @@
 }
 
 
-.webapp__blog-container_article-content p:last-child{
+.webapp__blog-container_article-content .link{
   cursor: pointer;
+}
+
+.webapp__blog-container_article-content .link:hover{
+  font-size: 13px;
 }
 
 @media screen and (max-width: 550px) {

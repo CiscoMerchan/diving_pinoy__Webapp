@@ -19,14 +19,16 @@
 }
 
 .webapp__diveright-img img{
+  
   width: 100%;
   height: 100%;
-  border-radius: 0.25rem;
+  border-radius: 2.5rem;
  
 }
 
 .webapp__diveright-img img:last-child{
   position:relative ;
+  height: 80%;
   z-index: 2;
   margin-top: 7rem;
   margin-left: -25rem;
