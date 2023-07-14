@@ -46,6 +46,14 @@
 	}
 	
 }
+@media screen and (max-width: 950px){
+	
+	.web__app-header {
+		height: 70vh;
+
+	}
+	
+}
 
 @media screen and (max-width: 550px){
 	.web__app-header {
