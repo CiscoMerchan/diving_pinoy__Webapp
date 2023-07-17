@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-import logo from '../../assets/img/diving-pinoy-high-resolution-logo-color-on-transparent-background.png'
+// import logo from '../../assets/img/diving-pinoy-high-resolution-logo-color-on-transparent-background.png'
 import './navbar.css'
 
 const Navbar = () => {
