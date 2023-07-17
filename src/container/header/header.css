@@ -1,6 +1,6 @@
 .web__app-header {
 	z-index: 0;
-	height: 65vh;
+	height: 100vh;
 	max-width: 100%;
 	margin: 0;
     position: relative;
@@ -22,10 +22,10 @@
 }
 
 @media screen and (min-width: 1800px){
-	.web__app-header {
+	/* .web__app-header {
 		height: 70vh;
 
-	}
+	} */
 
 	.icon {
 		top: 0; 
@@ -43,6 +43,14 @@
 		left: 10px; 
 		width: 100px;
 		height: auto;
+	}
+	
+}
+@media screen and (max-width: 950px){
+	
+	.web__app-header {
+		height: 70vh;
+
 	}
 	
 }
