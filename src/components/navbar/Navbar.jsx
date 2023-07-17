@@ -21,7 +21,8 @@ const Navbar = () => {
         <div className='webapp__navbar'>
           <div className='webapp__navbar-links'>
             <div className='webapp__navbar-links-logo'>
-              <img src={logo} alt='logo'/>
+              <h1>Diving Pinoy</h1>
+              {/* <img src={logo} alt='logo'/> */}
             </div>
             <div className='webapp__navbar-links_container'>
               <Menu />
