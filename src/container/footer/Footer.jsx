@@ -40,7 +40,9 @@ const Footer = () => {
         </div>
       </div>
       <div className='webapp__footer-copyright'>
-        <p>2023 Ciscodev. all rigths reserved</p>
+        <a href='https://ciscodev.website/' target='_blank' rel='author' style={{cursor:'pointer'}} >
+          <p>&#169;2023 ciscodev.website all rigths reserved</p>
+        </a>
       </div>
     </div>
   )
