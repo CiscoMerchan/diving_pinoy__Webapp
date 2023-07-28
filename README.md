@@ -1,70 +1,38 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Diving Pinoy - Your Gateway to Dive Adventures in Boracay
 
-## Available Scripts
+React-based landing page for a diving web app, fulfilling a long-time dream of bringing my projects to life through development. This idea of creating a web app for diving in Boracay has been in my mind for years, starting with a guide on paper. Now, I'm taking it a step further by building this platform to provide diving information and facilitate bookings for both beginners and enthusiasts. Stay tuned for more exciting updates as the project evolves!
 
-In the project directory, you can run:
+<strike>Welcome to Diving Pinoy, your ultimate web app for exploring the wonders of diving in Boracay. Dive into an immersive experience as we provide valuable information, tips, and guides for both seasoned divers and beginners alike.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Comprehensive diving information and tips for all experience levels.
+- Convenient booking system for diving courses and thrilling fun dives.
+- Interactive landing page powered by React components.
+- Continual development to enrich user experience and functionalities.
+</strike>
+## Embarking on a Dream
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Diving Pinoy is a project close to my heart, born from a dream that has lingered in my mind for years. From scribbling a guide on paper to crafting a fully-fledged web app using React, this project is a testament to my passion for turning ideas into reality through development.
 
-### `npm test`
+## Installation and Usage
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+While the project is still a work in progress, you can explore the landing page and delve into the React components in the code repository.
 
-### `npm run build`
+To run the project locally:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Clone this repository to your local machine.
+2. Navigate to the project directory and install the necessary dependencies.
+3. Run the development server using `npm start`.
+4. Visit `http://localhost:3000` in your web browser to experience the landing page.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Contributions
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Your contributions and suggestions are highly appreciated to make Diving Pinoy an exceptional platform for diving enthusiasts. Please feel free to submit pull requests and share your valuable ideas.
 
-### `npm run eject`
+## Acknowledgments
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+I extend my gratitude to FreeCodeCamp and the React community for their valuable resources and tools that have shaped this project.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Embark on an exciting journey with Diving Pinoy and immerse yourself in the captivating world of Boracay diving!
