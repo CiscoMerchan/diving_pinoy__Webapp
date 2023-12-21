@@ -1,8 +1,9 @@
 import './App.css';
 import './index.css'
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { Navbar, Partners} from './components';
-import { Header, Dive, About, Footer } from './container';
+import Home from './pages/Home/Home';
+import { Navbar } from './components';
+import { Header, Footer } from './container';
 import Blog from './container/blog/Blog';
 
 
@@ -12,14 +13,9 @@ function App() {
     <Navbar />
     <div className='bar'/>
     <Header />
-    <div className='bar'/>
-    <Dive />
-    <div className='bar'/>
-    <Partners />
-    <div className='bar'/>
-    <About />
-    <div className='bar'/>
-    <Blog />
+    <Routes>
+      <Route path='/' element={<Home />} />
+    </Routes>
     <div className='bar'/>
     {/* <Routes>
         <Route path="/" element={<Home />} />
