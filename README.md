@@ -1,4 +1,4 @@
-
+(on progress now adding pages)
 # Diving Pinoy - Your Gateway to Dive Adventures in Boracay
 
 React-based landing page for a diving web app, fulfilling a long-time dream of bringing my projects to life through development. This idea of creating a web app for diving in Boracay has been in my mind for years, starting with a guide on paper. Now, I'm taking it a step further by building this platform to provide diving information and facilitate bookings for both beginners and enthusiasts. Stay tuned for more exciting updates as the project evolves!
