@@ -1,4 +1,6 @@
 import React from 'react'
+// New react-route-dom to start pages
+import { Link } from 'react-router-dom'
 import { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 // import logo from '../../assets/img/diving-pinoy-high-resolution-logo-color-on-transparent-background.png'
@@ -7,11 +9,11 @@ import './navbar.css'
 const Navbar = () => {
     const Menu = () => (
         <>
-            <p><a href='#home'>Home</a></p>
-              <p><a href='#dive'>Dive</a></p>
-              <p><a href='#about'>Who we are?</a></p>
-              <p><a href='#blog'>Blog</a></p>
-              <p><a href='#contact'>Contact</a></p>
+            <p><Link to='/'>Home</Link></p>
+            <p><Link to='/dive'>Dive</Link></p>
+            <p><Link to='/about'>About</Link></p>
+            <p><Link to='/blog'>Blog</Link></p>
+            <p><Link to='/contact'>Contact</Link></p>
         </>
       )
     

@@ -1,6 +1,6 @@
 import React from 'react';
 import './footer.css';
-import logo from '../../assets/img/diving-pinoy-high-resolution-logo-color-on-transparent-background.png'
+import logo from '../../assets/img/diving-pinoy-high-resolution-logo-color-on-transparent-background.png';
 
 const Footer = () => {
   return (
@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
         <div className='webapp__footer-links_div'>
           <h4>Links</h4>
-          <p>Overons</p>
+          <p>Over ons</p>
           <p>Social Media</p>
           <p>Counters</p>
           <p>Contact</p>
@@ -33,19 +33,18 @@ const Footer = () => {
         </div>
         <div className='webapp__footer-links_div'>
           <h4>Get in touch</h4>
-          <p></p>
           <p>Station 3. Manoc Manoc Boracay. Philippines</p>
           <p>+63 8125 584</p>
-          <p>info@pinoydiving</p>
+          <p><a href="mailto:info@pinoydiving">info@pinoydiving</a></p>
         </div>
       </div>
       <div className='webapp__footer-copyright'>
-        <a href='https://ciscodev.website/' target='_blank' rel='author' style={{cursor:'pointer'}} >
-          <p>&#169;2023 ciscodev.website all rigths reserved</p>
+        <a href='https://ciscodev.website/' target='_blank' rel='noopener noreferrer' style={{cursor:'pointer'}} >
+          <p>&#169;2023 ciscodev.website all rights reserved</p>
         </a>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
