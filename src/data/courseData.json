@@ -4,7 +4,7 @@
         "title_card": "Discovery Scuba Diving (no certification)",
         "for_card": "For those who are new to scuba diving and want to experience it for the first time.",
         "text_card": "DSD is an introductory course that allows participants to experience scuba diving under the direct supervision of a PADI professional. It typically includes a brief theory session, basic skills training, and a supervised open water dive. It's a great way for beginners to get a taste of the underwater world without committing to a full certification course.",
-        "image_card": "./assets/img/P6270968.JPG",
+        "image_card": "/images/coursesImg/P6270968.JPG",
         "alt_image_card": "Discovery Scuba Diving image",
         "btn_cta_card": "<button>CTA Dive Button 1</button>"
       },
@@ -12,7 +12,7 @@
       "title_card": "Open Water Diver Course",
       "for_card": "For beginners who want to become certified scuba divers.",
       "text_card": "The Open Water Diver course is the first level of PADI certification. It covers essential scuba diving knowledge and skills, including dive planning, equipment use, underwater navigation, and safety procedures. The course includes both theoretical components (knowledge development) and practical components (confined water dives and open water dives). Successful completion of the Open Water Diver course allows individuals to dive independently with a buddy, under specified conditions.",
-      "image_card": "./assets/img/P6270968.JPG",
+      "image_card": "/images/coursesImg/P6270968.JPG",
       "alt_image_card": "Open Water Course Image",
       "btn_cta_card": "<button>CTA Dive Button 1</button>"
     },
@@ -20,7 +20,7 @@
       "title_card": "Advance Open Water Diver Course",
       "for_card": " Already OW and want to enhance their skills and gain more experience.",
       "text_card": "The Advanced Open Water Diver course is designed to build on the skills acquired in the Open Water Diver course. It includes five adventure dives, each focusing on a specific area of interest or specialty. Common adventure dives include deep diving, underwater navigation, night diving, and others. This course allows divers to explore various aspects of scuba diving and gain confidence in different environments. It does not require extensive classroom sessions and provides a more hands-on approach to learning.",
-      "image_card": "./assets/img/P6270968.JPG",
+      "image_card": "/images/coursesImg/P6270968.JPG",
       "alt_image_card": "Advance Open Water Course image",
       "btn_cta_card": "<button>CTA Dive Button 2</button>"
     }
