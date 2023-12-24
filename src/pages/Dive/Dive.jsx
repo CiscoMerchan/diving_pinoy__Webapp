@@ -9,7 +9,9 @@ const Dive = () => {
   return (
     <div>
         {/* <Course  courseData={courseData}/>  */}
-        <Course  courseData={courseData} />
+        <Course  
+          title_course= {`Dive Courses`}
+          courseData={courseData} />
     </div>
   )
 }
