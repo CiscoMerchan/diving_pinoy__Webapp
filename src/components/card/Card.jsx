@@ -1,7 +1,17 @@
 import React from 'react'
+
 import './Card.css'
 const Card = ({ image_card, alt_image_card, title_card, text_card, for_card, btn_cta_card}) => {
-  return (
+    
+    const wordsToShow = 50; 
+      
+    // Function to limit the text
+    const limitText = (originalText) => {
+          const words = originalText.split(' ');
+          const limitedText = words.slice(0, wordsToShow).join(' ');
+          return limitedText + ' ...';
+        };
+    return (
     <>
     <div className='webapp__card'>
         <div className='webapp__card-imagen'>
@@ -13,7 +23,7 @@ const Card = ({ image_card, alt_image_card, title_card, text_card, for_card, btn
             </div>
             <div className='webapp__card-container_text'>
                 <p className='webapp__card-container_subtext'>{for_card}</p>
-                <p>{text_card}</p>
+                <p>{limitText(text_card)}</p>
             </div>
         </div>
         <div className='webapp__card-btn_cta'>
