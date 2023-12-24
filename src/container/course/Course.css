@@ -19,5 +19,8 @@
 .webapp__course-container {
     flex: 1.75;
     display: flex;
+    justify-content: center;
+    align-items: first baseline;
     flex-wrap: wrap;
+    
 }

@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 300px;
+    width: 500px;
     height: 100%;
     margin: 2rem;
     padding-top: 0;
@@ -14,7 +14,7 @@
 .webapp__card-imagen{
     flex: 0.7;
     width: 100%;
-    max-width: 300px; 
+    max-width: 500px; 
     height: auto;
     margin-bottom: 0.5rem;
 }
