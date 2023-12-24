@@ -1,6 +1,6 @@
 import React from 'react'
 import './Card.css'
-const Card = ({ image_card, alt_image_card, title_card, text_card, btn_cta_card}) => {
+const Card = ({ image_card, alt_image_card, title_card, text_card, for_card, btn_cta_card}) => {
   return (
     <>
     <div className='webapp__card'>
@@ -12,6 +12,7 @@ const Card = ({ image_card, alt_image_card, title_card, text_card, btn_cta_card}
                 <h3>{title_card}</h3>
             </div>
             <div className='webapp__card-container_text'>
+                <p className='webapp__card-container_subtext'>{for_card}</p>
                 <p>{text_card}</p>
             </div>
         </div>

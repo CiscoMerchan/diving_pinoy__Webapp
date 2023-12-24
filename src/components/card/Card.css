@@ -48,7 +48,11 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    flex-direction: column;
     padding: 0 0.5rem;
+}
+.webapp__card-container_subtext{
+
 }
 .webapp__card-container_text p{
     text-align: justify;
