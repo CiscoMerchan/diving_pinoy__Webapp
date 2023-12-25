@@ -60,8 +60,8 @@
     flex-direction: column;
     padding: 0 0.5rem;
 }
-.webapp__card-container_subtext{
-
+.webapp__card-container_subtext {
+    text-shadow: 1px 1px 8px #fff;
 }
 .webapp__card-container_text p{
     text-align: justify;
@@ -72,6 +72,6 @@
     margin: 0.5rem 0 1rem;
 }
 .webapp__card-btn_cta p:hover {
-    font-weight: bold;
     letter-spacing: 2px;
+    text-shadow: 1px 1px 8px #fff;
 }
