@@ -17,7 +17,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/dive' element={<Dive />} />
-          
+          {/* <Route path="/course-detail/:title_card" component={CourseDetail} /> */}
         </Routes>
       <div className='bar'/>
       <Footer />
