@@ -1,9 +1,11 @@
 import './App.css';
 import './index.css';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Home from './pages/Home/Home';
 import Navbar from './components/navbar/Navbar';
 import { Header, Footer } from './container';
+// Pages
+import Home from './pages/Home/Home';
+import Dive from './pages/Dive/Dive';
 
 function App() {
   return (
@@ -14,7 +16,8 @@ function App() {
       
         <Routes>
           <Route path='/' element={<Home />} />
-          
+          <Route path='/dive' element={<Dive />} />
+          {/* <Route path="/course-detail/:title_card" component={CourseDetail} /> */}
         </Routes>
       <div className='bar'/>
       <Footer />
