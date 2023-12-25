@@ -1,7 +1,8 @@
 import React from 'react'
 
 import './Card.css'
-const Card = ({ image_card, alt_image_card, title_card, text_card, for_card, btn_cta_card}) => {
+import { Link } from 'react-router-dom';
+const Card = ({ id, image_card, alt_image_card, title_card, text_card, for_card}) => {
     
     const wordsToShow = 50; 
       
@@ -27,7 +28,10 @@ const Card = ({ image_card, alt_image_card, title_card, text_card, for_card, btn
             </div>
         </div>
         <div className='webapp__card-btn_cta'>
-            {btn_cta_card}
+            <p>
+            <Link to={`/course-detail/${id}`}>Read more</Link>
+            </p>
+            {/* {btn_cta_card} */}
         </div>
         
     </div>
