@@ -1,9 +1,11 @@
 import React from 'react';
+import './DiveSite.css'
 import FlipCard from '../../components/flipCard/FlipCard'; 
 
-const CardList = ({ cardData }) => {
+const DiveSite = ({ cardData }) => {
   return (
-    <div className="card-list">
+    
+    <div className="webapp__divesite">
       {cardData.map((card) => (
         <FlipCard key={card.id} images={card.images} description={card.description} />
       ))}
@@ -11,4 +13,4 @@ const CardList = ({ cardData }) => {
   );
 };
 
-export default CardList;
+export default DiveSite;
