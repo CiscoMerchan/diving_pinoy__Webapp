@@ -22,6 +22,8 @@ const FlipCard = ({ title, images, description }) => {
 
           {/* Side B: Description */}
           <div className="flip-card-side flip-card-side-b">
+            <p className='card_subtext'>Depth: {depth}</p>
+            <p className='card_subtext'>Level from: {level}</p>
             <p>{description}</p>
           </div>
         </div>
