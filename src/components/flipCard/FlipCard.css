@@ -1,7 +1,21 @@
 .webapp__flip-card {
-    margin: 2rem;
+    margin: 2rem 4rem;
 }
-
+.webapp__flip-card-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem 0;
+    font-family: var(--font-family);
+    font-size: 26px;
+    line-height: 38px;
+    letter-spacing: 0.04rem;
+    color: var(--color-main);
+}
+.webapp__flip-card-title h3{
+    text-align: center;
+    
+}
 .flip-card {
     width: 400px;
     height: 400px;
@@ -34,7 +48,7 @@
 
 .flip-card-side-b {
     transform: rotateY(180deg);
-    /* background-color: #ddd; */
+    border: 2px solid #fff;
 }
 
 .flip-card.flipped .flip-card-inner {
@@ -48,7 +62,11 @@
 }
 
 .flip-card p {
-    text-align: center;
+    font-family: var(--font-family);
     font-size: 12px;
-    color: #fff;
+    line-height: 18px;
+    letter-spacing: 0.04rem;
+    color: var(--color-main);
+    padding: 0.5rem;
+    text-align: left;
 }
