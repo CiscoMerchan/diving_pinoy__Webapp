@@ -27,12 +27,12 @@
 }
 
 .flip-card-side-a {
-    background-color: #f1f1f1;
+    background-color: var(--color-main);
 }
 
 .flip-card-side-b {
     transform: rotateY(180deg);
-    background-color: #ddd;
+    /* background-color: #ddd; */
 }
 
 .flip-card.flipped .flip-card-inner {
@@ -48,4 +48,5 @@
 .flip-card p {
     text-align: center;
     font-size: 12px;
+    color: #fff;
 }
