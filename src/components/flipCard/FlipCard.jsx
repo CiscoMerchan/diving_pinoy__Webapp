@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './FlipCard.css';
 import { findAllByTitle } from '@testing-library/react';
 
-const FlipCard = ({ title, images, description }) => {
+const FlipCard = ({ title, images, depth, level, description }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleCardFlip = () => {
