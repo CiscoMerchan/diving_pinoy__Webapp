@@ -14,9 +14,10 @@ const FlipCard = ({ images, description }) => {
         <div className="flip-card-inner">
             {/* Side A: Carousel of images */}
             <div className="flip-card-side flip-card-side-a">
-            {images.map((image, index) => (
+            {/* {images.map((image, index) => (
                 <img key={index} src={image} alt={`dive site ${index + 1}`} />
-            ))}
+            ))} */}
+            <img src={images} />
             </div>
 
             {/* Side B: Description */}
