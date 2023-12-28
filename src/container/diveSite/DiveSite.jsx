@@ -9,7 +9,10 @@ const DiveSite = ({ cardData }) => {
     <div className="webapp__divesite">
       {cardData.map((card) => (
         <FlipCard key={card.id} 
-        images= {<Carousel images={card.images} />}
+        images= {<Carousel 
+          images={card.images}
+          containerStyle={{ width: '400px', height: '400px' }} 
+          />}
        description={card.description} />
       ))}
     </div>
