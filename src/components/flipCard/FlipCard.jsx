@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './FlipCard.css'; 
+import './FlipCard.css';
 
 const FlipCard = ({ images, description }) => {
   const [isFlipped, setIsFlipped] = useState(false);
@@ -10,22 +10,19 @@ const FlipCard = ({ images, description }) => {
 
   return (
     <div className='webapp__flip-card'>
-        <div className={`flip-card ${isFlipped ? 'flipped' : ''}`} onClick={handleCardFlip}>
+      <div className={`flip-card ${isFlipped ? 'flipped' : ''}`} onClick={handleCardFlip}>
         <div className="flip-card-inner">
-            {/* Side A: Carousel of images */}
-            <div className="flip-card-side flip-card-side-a">
-            {/* {images.map((image, index) => (
-                <img key={index} src={image} alt={`dive site ${index + 1}`} />
-            ))} */}
-            {images} 
-            </div>
+          {/* Side A: Carousel of images */}
+          <div className="flip-card-side flip-card-side-a">
+            {images}
+          </div>
 
-            {/* Side B: Description */}
-            <div className="flip-card-side flip-card-side-b">
+          {/* Side B: Description */}
+          <div className="flip-card-side flip-card-side-b">
             <p>{description}</p>
-            </div>
+          </div>
         </div>
-        </div>
+      </div>
     </div>
   );
 };
