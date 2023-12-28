@@ -17,7 +17,7 @@ const FlipCard = ({ images, description }) => {
             {/* {images.map((image, index) => (
                 <img key={index} src={image} alt={`dive site ${index + 1}`} />
             ))} */}
-            <img src={images} />
+            {images} 
             </div>
 
             {/* Side B: Description */}

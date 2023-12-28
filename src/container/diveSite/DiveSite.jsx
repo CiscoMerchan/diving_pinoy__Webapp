@@ -10,7 +10,7 @@ const DiveSite = ({ cardData }) => {
       {cardData.map((card) => (
         <FlipCard key={card.id} 
         images= {<Carousel images={card.images} />}
-        description={card.description} />
+       description={card.description} />
       ))}
     </div>
   );
