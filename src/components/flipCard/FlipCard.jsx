@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './FlipCard.css';
+import { findAllByTitle } from '@testing-library/react';
 
-const FlipCard = ({ images, description }) => {
+const FlipCard = ({ title, images, description }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleCardFlip = () => {
@@ -9,7 +10,9 @@ const FlipCard = ({ images, description }) => {
   };
 
   return (
-    <div className='webapp__flip-card'>
+    <>
+      <div className='webapp__flip-card'>
+      <h3 className='webapp__flip-card-title'>{title}</h3>
       <div className={`flip-card ${isFlipped ? 'flipped' : ''}`} onClick={handleCardFlip}>
         <div className="flip-card-inner">
           {/* Side A: Carousel of images */}
@@ -24,6 +27,7 @@ const FlipCard = ({ images, description }) => {
         </div>
       </div>
     </div>
+    </>  
   );
 };
 
