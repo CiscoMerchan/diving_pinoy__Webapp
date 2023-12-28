@@ -26,11 +26,11 @@
     align-items: center;
 }
 
-.flip-card-a {
+.flip-card-side-a {
     background-color: #f1f1f1;
 }
 
-.flip-card-b {
+.flip-card-side-b {
     transform: rotateY(180deg);
     background-color: #ddd;
 }
