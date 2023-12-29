@@ -14,6 +14,8 @@ const DiveSite = ({ cardData }) => {
           images={card.images}
           containerStyle={{ width: '400px', height: '400px' }} 
           />}
+        depth={card.depth}
+        level={card.level}  
        description={card.description} />
       ))}
     </div>

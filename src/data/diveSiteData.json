@@ -4,8 +4,8 @@
       "title":"Angol Point",
       "images": [
         "/images/diveSite/angolPoint/Angol.JPG",
-        "/images/diveSite/angolPoint/GOPR6992.jpg",
-        "/images/diveSite/angolPoint/P6260596.JPG"
+        "/images/diveSite/angolPoint/angolP1.JPG",
+        "/images/diveSite/angolPoint/angolP4.JPG"
       ],
       "depth":"4 - 12 meters",
       "level":"OW",
@@ -15,9 +15,9 @@
       "id": 2,
       "title":"Coral Garden",
       "images": [
-        "/images/card2/image1.jpg",
-        "/images/card2/image2.jpg",
-        "/images/card2/image3.jpg"
+        "/images/diveSite/coralrock/G0419192.JPG",
+        "/images/diveSite/coralrock/P5300414.JPG",
+        "/images/diveSite/coralrock/P6260757.JPG"
       ],
       "depth":"6 - 12 meters",
       "level":"from DSD",
@@ -27,9 +27,9 @@
       "id": 3,
       "title":"Lobster Rock",
       "images": [
-        "/images/card3/image1.jpg",
-        "/images/card3/image2.jpg",
-        "/images/card3/image3.jpg"
+        "/images/diveSite/lobsterR/lobsterR1.JPG",
+        "/images/diveSite/lobsterR/lobsterR2.JPG",
+        "/images/diveSite/lobsterR/lobsterR3.JPG"
       ],
       "depth":"4 - 16 meters",
       "level":"DSD",
@@ -39,9 +39,9 @@
       "id": 4,
       "title":"Diniwid",
       "images": [
-        "/images/card3/image1.jpg",
-        "/images/card3/image2.jpg",
-        "/images/card3/image3.jpg"
+        "/images/diveSite/diniwid/diniwid1.JPG",
+        "/images/diveSite/diniwid/diniwid2.JPG",
+        "/images/diveSite/diniwid/diniwid3.JPG"        
       ],
       "depth":"6 - 18 meters",
       "level":"OW",
@@ -51,9 +51,9 @@
       "id": 5,
       "title":"Little Friday's",
       "images": [
-        "/images/card3/image1.jpg",
-        "/images/card3/image2.jpg",
-        "/images/card3/image3.jpg"
+        "/images/diveSite/littleF/lf1.JPG",
+        "/images/diveSite/littleF/lf2.JPG",
+        "/images/diveSite/littleF/lf3.JPG"
       ],
       "depth":"4 - 12 meters",
       "level":"DSD",
@@ -63,9 +63,9 @@
       "id": 6,
       "title":"Friday's Rock",
       "images": [
-        "/images/card3/image1.jpg",
-        "/images/card3/image2.jpg",
-        "/images/card3/image3.jpg"
+        "/images/diveSite/fridaysR/fr1.JPG",
+        "/images/diveSite/fridaysR/fr2.JPG",
+        "/images/diveSite/fridaysR/fr3.JPG"
       ],
       "depth":"12 - 18 meters",
       "level":"OW",
@@ -75,9 +75,9 @@
       "id": 7,
       "title":"Crocodile Island",
       "images": [
-        "/images/card3/image1.jpg",
-        "/images/card3/image2.jpg",
-        "/images/card3/image3.jpg"
+        "/images/diveSite/crocodile/ci1.JPG",
+        "/images/diveSite/crocodile/ci2.JPG",
+        "/images/diveSite/crocodile/ci3.JPG"
       ],
       "depth":"3 - 26 meters",
       "level":"DSD",
@@ -87,9 +87,8 @@
       "id": 8,
       "title":"Balinghai",
       "images": [
-        "/images/card3/image1.jpg",
-        "/images/card3/image2.jpg",
-        "/images/card3/image3.jpg"
+        "/images/diveSite/balinhai/b01.JPG",
+        "/images/diveSite/balinhai/b02.JPG"
       ],
       "depth":"6 - 26 meters",
       "level":"AOW",
@@ -99,9 +98,9 @@
       "id": 9,
       "title":"Santoson",
       "images": [
-        "/images/card3/image1.jpg",
-        "/images/card3/image2.jpg",
-        "/images/card3/image3.jpg"
+        "/images/diveSite/santoson/santoson1.JPG",
+        "/images/diveSite/santoson/santoson2.JPG",
+        "/images/diveSite/santoson/santoson3.JPG"
       ],
       "depth":"10 - 26 meters",
       "level":"OW",
@@ -111,9 +110,9 @@
       "id": 10,
       "title":"Punta Bunga",
       "images": [
-        "/images/card3/image1.jpg",
-        "/images/card3/image2.jpg",
-        "/images/card3/image3.jpg"
+        "/images/diveSite/punta_bunga/puntaB01.JPG",
+        "/images/diveSite/punta_bunga/puntaB02.JPG",
+        "/images/diveSite/punta_bunga/puntaB03.JPG"
       ],
       "depth":"27 - 40 meters",
       "level":"Experience AOW",
@@ -123,9 +122,9 @@
       "id": 11,
       "title":"Virgin Drop",
       "images": [
-        "/images/card3/image1.jpg",
-        "/images/card3/image2.jpg",
-        "/images/card3/image3.jpg"
+        "/images/diveSite/virgin_drop/virginD01.JPG",
+        "/images/diveSite/virgin_drop/virginD02.JPG",
+        "/images/diveSite/virgin_drop/virginD03.JPG"
       ],
       "depth":"22 - 35 meters",
       "level":"AOW",
@@ -135,9 +134,12 @@
       "id": 12,
       "title":"Camia II",
       "images": [
-        "/images/card3/image1.jpg",
-        "/images/card3/image2.jpg",
-        "/images/card3/image3.jpg"
+        "/images/diveSite/camiaII/camiaII01.JPG",
+        "/images/diveSite/camiaII/camiaII02.JPG",
+        "/images/diveSite/camiaII/camiaII03.JPG",
+        "/images/diveSite/camiaII/camiaII04.JPG",
+        "/images/diveSite/camiaII/camiaII05.JPG",
+        "/images/diveSite/camiaII/camiaII06.JPG"
       ],
       "depth":"18 - 29 meters",
       "level":"AOW",
@@ -147,9 +149,9 @@
       "id": 13,
       "title":"Tribird",
       "images": [
-        "/images/card3/image1.jpg",
-        "/images/card3/image2.jpg",
-        "/images/card3/image3.jpg"
+        "/images/diveSite/tribird/tribird01.JPG",
+        "/images/diveSite/tribird/tribird02.JPG",
+        "/images/diveSite/tribird/tribird03.JPG"
       ],
       "depth":"26 - 30 meters",
       "level":"AOW",
@@ -159,9 +161,9 @@
       "id": 14,
       "title":"Yapak II",
       "images": [
-        "/images/card3/image1.jpg",
-        "/images/card3/image2.jpg",
-        "/images/card3/image3.jpg"
+        "/images/diveSite/yapak/yapak01.jpg",
+        "/images/diveSite/yapak/yapak02.jpg",
+        "/images/diveSite/yapak/yapak03.jpg"
       ],
       "depth":"30 - 37 meters",
       "level":"Experienced AOW",

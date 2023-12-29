@@ -44,11 +44,17 @@
 
 .flip-card-side-a {
     background-color: var(--color-main);
+    border: 2px solid #fff;
 }
 
 .flip-card-side-b {
     transform: rotateY(180deg);
     border: 2px solid #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .flip-card.flipped .flip-card-inner {
@@ -69,4 +75,22 @@
     color: var(--color-main);
     padding: 0.5rem;
     text-align: left;
+}
+
+.card_subtext span {
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.04rem;
+    color: var(--color-main);
+    margin: 0.5rem 0;
+    text-shadow: 1px 1px 8px #fff;
+}
+.card_subtext p {
+    font-family: var(--font-family);
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.04rem;
+    color: var(--color-main);
+    margin: 0.5rem 0;
 }

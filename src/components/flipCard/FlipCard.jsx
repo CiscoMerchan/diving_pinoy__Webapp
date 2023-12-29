@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import './FlipCard.css';
-import { findAllByTitle } from '@testing-library/react';
 
-const FlipCard = ({ title, images, description }) => {
+const FlipCard = ({ title, images, depth, level, description }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleCardFlip = () => {
@@ -22,6 +21,10 @@ const FlipCard = ({ title, images, description }) => {
 
           {/* Side B: Description */}
           <div className="flip-card-side flip-card-side-b">
+            <div className='card_subtext'>
+              <p><span>Depth: </span> {depth}</p>
+              <p><span>Level from: </span> {level}</p>
+            </div>
             <p>{description}</p>
           </div>
         </div>
