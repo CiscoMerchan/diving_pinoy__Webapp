@@ -7,6 +7,13 @@ const FlipCard = ({ title, images, depth, level, description }) => {
   const handleCardFlip = () => {
     setIsFlipped(!isFlipped);
   };
+  // When a dot (.) on the text description text to the next line
+  const renderDescriptionSentences = () => {
+    const sentences = description.split('. ');
+    return sentences.map((sentence, index) => (
+      <p key={index}>{sentence}</p>
+    ));
+  };
 
   return (
     <>
@@ -25,7 +32,11 @@ const FlipCard = ({ title, images, depth, level, description }) => {
               <p><span>Depth: </span> {depth}</p>
               <p><span>Level from: </span> {level}</p>
             </div>
-            <p>{description}</p>
+            <div className='scroll'>
+            {renderDescriptionSentences()}
+            </div>
+            
+            {/* <p>{description}</p> */}
           </div>
         </div>
       </div>
