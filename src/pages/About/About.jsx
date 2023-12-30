@@ -16,14 +16,14 @@ const About = () => {
             </div>
             <div className='webapp_about-container_land'>
                 <h2>Boracay on Land</h2>
-                <div>
+                <div className='webapp_about-container_land-container'>
                     <img src='' alt=""/>
                     <p></p>
                 </div>
             </div>
             <div className='webapp_about-container_UW'>
             <h2>Boracay UnderWater</h2>
-            <div>
+            <div className='webapp_about-container_UW-container'>
                 <img src='' alt=""/>
                 <p></p>
             </div>
