@@ -9,9 +9,9 @@ const FlipCard = ({ title, images, depth, level, description }) => {
   };
   // When a dot (.) on the text description text to the next line
   const renderDescriptionSentences = () => {
-    const sentences = description.split('. ');
+    const sentences = description.split('.');
     return sentences.map((sentence, index) => (
-      <p key={index}>{sentence}</p>
+      <p key={index}>{sentence}.</p>
     ));
   };
 
