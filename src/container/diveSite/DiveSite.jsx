@@ -6,7 +6,7 @@ import Carousel from '../../components/carousel/Carousel';
 const DiveSite = ({ cardData }) => {
   return (
     
-    <div className="webapp__divesite">
+    <div className="webapp__divesite-container">
       {cardData.map((card) => (
         <FlipCard key={card.id}
         title={card.title} 
