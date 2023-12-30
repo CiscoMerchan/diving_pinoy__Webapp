@@ -7,7 +7,7 @@ const DiveSite = ({ cardData }) => {
   return (
     <div className='webapp__divesite'>
       <div className='webapp__divesite-title'>
-        
+        <h2>Dive Sites</h2>  
       </div>
       <div className="webapp__divesite-container">
         {cardData.map((card) => (
