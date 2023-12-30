@@ -1,5 +1,24 @@
 .webapp__divesite {
     display: flex;
+    flex-direction: column;
+    margin: 4rem 0;
+}
+.webapp__divesite-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+.webapp__divesite-title h2 {
+    text-align: center;
+    font-family: var(--font-family);
+    color: var(--color-main);
+    font-size: 40px;
+    line-height: 55px;
+}    
+
+.webapp__divesite-container {
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
