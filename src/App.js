@@ -6,6 +6,7 @@ import { Header, Footer } from './container';
 // Pages
 import Home from './pages/Home/Home';
 import Dive from './pages/Dive/Dive';
+import About from './pages/About/About';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/dive' element={<Dive />} />
           {/* <Route path="/course-detail/:title_card" component={CourseDetail} /> */}
+          <Route path='/about' element={<About />} />
         </Routes>
       <div className='bar'/>
       <Footer />
