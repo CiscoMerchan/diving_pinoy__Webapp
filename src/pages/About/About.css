@@ -1,0 +1,25 @@
+.webapp_about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem;
+}
+.webapp_about-title {}
+.webapp_about-title h1 {}
+.webapp_about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.webapp_about-container_intro {}
+.webapp_about-container_intro p {}
+.webapp_about-container_land {}
+.webapp_about-container_land h2 {}
+.webapp_about-container_land-container {}
+.webapp_about-container_land-container p {}
+.webapp_about-container_UW {}
+.webapp_about-container_UW h2 {}
+.webapp_about-container_UW {}
+.webapp_about-container_UW p {}
