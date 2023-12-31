@@ -27,7 +27,7 @@ const About = () => {
             <div className='webapp_about-container_land'>
                 <h2>Boracay on Land</h2>
                 <div className='webapp_about-container_land-container'>
-                    <img src='' alt=""/>
+                    <img src='/images/about/onland.JPG' alt="about_onLand"/>
                     <p>{text.onLand}</p>
                 </div>
             </div>
