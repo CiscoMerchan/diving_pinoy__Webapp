@@ -17,7 +17,7 @@ const About = () => {
     <div className='webapp_about'>
         <div className='webapp_about-title'>
             <h1>About Boracay</h1>
-            <img src='' alt=""/>
+            <img src='/images/about/Phi-Boracay.png' alt="about_Phi-Boracay"/>
         </div>
         <div className='webapp_about-container'>
             <div className='webapp_about-container_intro'>
