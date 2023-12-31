@@ -9,7 +9,7 @@ const About = () => {
     Boracay is known all over the world for its white sand beach and turquoise waters.
     For those who wish to do other activities than diving, Boracay offers many activities, such as: kitesurfing, parasailing, kayaking, sailing, karting, golf, jet skiing, etc.
     It is also well known for its festive atmosphere and nightlife, with many bars and clubs of different atmospheres ; local and international culinary varieties ; and in regard to accommodation, there is something in everybody's budget.`,
-    
+
 
   }
    return (
@@ -27,7 +27,7 @@ const About = () => {
                 <h2>Boracay on Land</h2>
                 <div className='webapp_about-container_land-container'>
                     <img src='' alt=""/>
-                    <p></p>
+                    <p>{text.onLand}</p>
                 </div>
             </div>
             <div className='webapp_about-container_UW'>
