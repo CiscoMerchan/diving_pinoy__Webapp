@@ -34,12 +34,26 @@
 }
 .webapp_about-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.webapp_about-container_intro {}
-.webapp_about-container_intro p {}
+.webapp_about-container_intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.webapp_about-container_intro p {
+    text-align: center;
+    font-family: var(--font-family);
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    padding: 1.5rem 0;
+}
+.webapp_about-intro_image {}
+.webapp_about-intro_image img {}
 .webapp_about-container_land {}
 .webapp_about-container_land h2 {}
 .webapp_about-container_land-container {}
