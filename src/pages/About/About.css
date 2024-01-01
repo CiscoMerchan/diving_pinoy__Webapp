@@ -5,8 +5,21 @@
     align-items: center;
     margin: 4rem;
 }
-.webapp_about-title {}
-.webapp_about-title h1 {}
+.webapp_about-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 0;
+}
+.webapp_about-title h1 {
+    text-align: center;
+    font-family: var(--font-family);
+    color: #fff;
+    font-size: 40px;
+    line-height: 55px;
+    padding: 1.5rem 0;
+}
 .webapp_about-container {
     display: flex;
     flex-direction: row;
