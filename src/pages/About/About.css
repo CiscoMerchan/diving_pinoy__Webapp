@@ -20,6 +20,18 @@
     line-height: 55px;
     padding: 1.5rem 0;
 }
+.webapp_about-title_image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 6rem;
+}
+.webapp_about-title_image img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
 .webapp_about-container {
     display: flex;
     flex-direction: row;
