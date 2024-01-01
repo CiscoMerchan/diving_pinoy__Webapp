@@ -40,7 +40,7 @@ const About = () => {
             <div className='webapp_about-container_UW'>
                 <h2>Boracay UnderWater</h2>
                 <div className='webapp_about-container_UW-container'>
-                    <img src='/images/about/boracayUW.JPG' alt="about_uW"/>
+                    <img src='/images/about/boracay_UW.JPG' alt="about_uW"/>
                     <p>{text.underWater}</p>
                 </div>
             </div>
