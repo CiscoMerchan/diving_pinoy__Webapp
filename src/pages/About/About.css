@@ -6,6 +6,12 @@ h2 {
     line-height: 38px;
     padding: 1.5rem 0;
 }
+img {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
 .webapp_about {
     display: flex;
     flex-direction: column;
