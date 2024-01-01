@@ -17,24 +17,30 @@ const About = () => {
     <div className='webapp_about'>
         <div className='webapp_about-title'>
             <h1>About Boracay</h1>
+            <div className='webapp_about-title_image'>
             <img src='/images/about/Phi-Boracay.png' alt="about_Phi-Boracay"/>
+            </div>
+            
         </div>
         <div className='webapp_about-container'>
             <div className='webapp_about-container_intro'>
                 <p>{text.intro}</p>
-                <img src='' alt=""/>
+                <div className='webapp_about-intro_image'>
+                <img src='/images/about/seahorse.JPG' alt="about_intro"/>
+                </div>
+                
             </div>
             <div className='webapp_about-container_land'>
                 <h2>Boracay on Land</h2>
                 <div className='webapp_about-container_land-container'>
-                    <img src='/images/about/onland.JPG' alt="about_onLand"/>
+                    <img src='/images/about/boracayOnLand.JPG' alt="about_onLand"/>
                     <p>{text.onLand}</p>
                 </div>
             </div>
             <div className='webapp_about-container_UW'>
                 <h2>Boracay UnderWater</h2>
                 <div className='webapp_about-container_UW-container'>
-                    <img src='/images/about/uW.jpg' alt="about_uW"/>
+                    <img src='/images/about/boracay_UW.JPG' alt="about_uW"/>
                     <p>{text.underWater}</p>
                 </div>
             </div>
