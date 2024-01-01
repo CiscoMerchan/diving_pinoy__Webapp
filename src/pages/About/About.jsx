@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import AboutCard from '../../components/about_card/AboutCard'
 
 const About = () => {
   const text = {
@@ -12,6 +13,9 @@ const About = () => {
     underWater: `	Like the vast majority of islands in the Philippines, Boracay has a lot to offer in diving, from those who wish to discover the underwater world for the first time, to experienced divers. The high season is from the end of November to May, however the best period specifically for diving is between May and June, with an average water temperature between 29C ° and 30C °, and the visibility goes from 15m to over 30m.
     Boracay has 12 dive sites in the west and 5 in the East (diving on the East side is only during  Habagat *).`
   }
+  /*/images/about/seahorse.JPG
+/images/about/boracayOnLand.JPG
+/images/about/boracay_UW.JPG */
 
    return (
     <div className='webapp_about'>
@@ -20,31 +24,14 @@ const About = () => {
             <div className='webapp_about-title_image'>
             <img src='/images/about/Phi-Boracay.png' alt="about_Phi-Boracay"/>
             </div>
-            
         </div>
-        <div className='webapp_about-container'>
-            <div className='webapp_about-container_intro'>
-                <p>{text.intro}</p>
-                <div className='webapp_about-intro_image'>
-                <img src='/images/about/seahorse.JPG' alt="about_intro"/>
-                </div>
-                
-            </div>
-            <div className='webapp_about-container_land'>
-                <h2>Boracay on Land</h2>
-                <div className='webapp_about-container_land-container'>
-                    <img src='/images/about/boracayOnLand.JPG' alt="about_onLand"/>
-                    <p>{text.onLand}</p>
-                </div>
-            </div>
-            <div className='webapp_about-container_UW'>
-                <h2>Boracay UnderWater</h2>
-                <div className='webapp_about-container_UW-container'>
-                    <img src='/images/about/boracay_UW.JPG' alt="about_uW"/>
-                    <p>{text.underWater}</p>
-                </div>
-            </div>
-        </div>
+        {/* Introduction */}
+        <AboutCard 
+            title={``}
+            image={`/images/about/seahorse.JPG`}
+            text={text.intro}
+        />
+        
     </div>
   )
 }
