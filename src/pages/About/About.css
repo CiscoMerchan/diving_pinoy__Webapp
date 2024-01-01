@@ -11,6 +11,7 @@ img {
     height: 100%;
     border: 2px solid #fff;
     border-radius: 5px;
+    margin: 2rem 0;
 }
 .webapp_about {
     display: flex;
