@@ -10,7 +10,7 @@ const About = () => {
     Boracay is known all over the world for its white sand beach and turquoise waters.
     For those who wish to do other activities than diving, Boracay offers many activities, such as: kitesurfing, parasailing, kayaking, sailing, karting, golf, jet skiing, etc.
     It is also well known for its festive atmosphere and nightlife, with many bars and clubs of different atmospheres ; local and international culinary varieties ; and in regard to accommodation, there is something in everybody's budget.`,
-    underWater: `	Like the vast majority of islands in the Philippines, Boracay has a lot to offer in diving, from those who wish to discover the underwater world for the first time, to experienced divers. The high season is from the end of November to May, however the best period specifically for diving is between May and June, with an average water temperature between 29C ° and 30C °, and the visibility goes from 15m to over 30m.
+    underWater: `Like the vast majority of islands in the Philippines, Boracay has a lot to offer in diving, from those who wish to discover the underwater world for the first time, to experienced divers. The high season is from the end of November to May, however the best period specifically for diving is between May and June, with an average water temperature between 29C ° and 30C °, and the visibility goes from 15m to over 30m.
     Boracay has 12 dive sites in the west and 5 in the East (diving on the East side is only during  Habagat *).`
   }
    return (
@@ -22,17 +22,20 @@ const About = () => {
             </div>
         </div>
         {/* Introduction */}
+        {/* <div className='bar'/> */}
         <AboutCard 
             title={``}
             image={`/images/about/seahorse.JPG`}
             text={text.intro}
         />
         {/* On Land */}
+        {/* <div className='bar'/> */}
         <AboutCard 
             title={`Boracay on Land`}
             image={`/images/about/boracayOnLand.JPG`}
             text={text.onLand}
         />{/* Under the Water */}
+        {/* <div className='bar'/> */}
         <AboutCard 
             title={`Boracay Underwater`}
             image={`/images/about/boracay_UW.JPG`}
