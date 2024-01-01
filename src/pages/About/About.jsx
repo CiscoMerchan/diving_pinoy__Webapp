@@ -31,6 +31,12 @@ const About = () => {
             image={`/images/about/seahorse.JPG`}
             text={text.intro}
         />
+        {/* On Land */}
+        <AboutCard 
+            title={`Boracay on Land`}
+            image={`/images/about/boracayOnLand.JPG`}
+            text={text.onLand}
+        />
         
     </div>
   )
