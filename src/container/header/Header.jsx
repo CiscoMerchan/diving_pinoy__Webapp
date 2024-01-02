@@ -1,6 +1,6 @@
 import React from 'react';
 import './header.css'
-import headerPic from '../../assets/img/headerPic.JPG'
+// import headerPic from '../../assets/img/headerPic.JPG'
 import padiResortIcon from '../../assets/img/icons/padiresort_icon.png'
 import logo from '../../assets/img/diving-pinoy-high-resolution-logo-color-on-transparent-background.png'
 const Header = () => {
@@ -14,6 +14,12 @@ const Header = () => {
     '/images/diveSite/camiaII/camiaII02.JPG',
     '/images/diveSite/punta_bunga/puntaB03.jpg'
   ]
+
+  // Function to get random images from `randomImages`
+  const headerPic = () => {
+    const randomIndex = Math.floor(Math.random() * randomImages.length);
+      return randomImages[randomIndex];
+  }
   return (
     <div className='web__app-header'>
       <img className='logo' src={logo} alt='logo'/>
