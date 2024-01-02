@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState}from 'react';
 import './header.css'
 // import headerPic from '../../assets/img/headerPic.JPG'
 import padiResortIcon from '../../assets/img/icons/padiresort_icon.png'
@@ -16,17 +16,30 @@ const Header = () => {
   ]
 
   // Function to get random images from `randomImages`
-  const headerPic = () => {
+  const getRandomImages = () => {
     const randomIndex = Math.floor(Math.random() * randomImages.length);
-      return randomImages[randomIndex];
-  }
+    return randomImages[randomIndex];
+  };
+  // Refresh header image every 10 seconds
+  const [currentImage, setCurrentImage] = useState(getRandomImages());
+
+  useEffect(() => {
+    // Set up an interval to change the image every 10 seconds
+    const intervalId = setInterval(() => {
+      setCurrentImage(getRandomImages());
+    }, 10000);
+
+    // Clean up the interval when the component is unmounted or dependencies change
+    return () => clearInterval(intervalId);
+  }, [randomImages]);
+  
   return (
     <div className='web__app-header'>
       <img className='logo' src={logo} alt='logo'/>
-      <img className='bg_img'src={headerPic()} alt='header_pic'/>
+      <img className='bg_img'src={currentImage} alt='header_pic'/>
       <img className='icon' src={padiResortIcon} alt='padi_icon' />
     </div>
   )
-}
+  }
 
 export default Header
