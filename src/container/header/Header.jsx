@@ -23,7 +23,7 @@ const Header = () => {
   return (
     <div className='web__app-header'>
       <img className='logo' src={logo} alt='logo'/>
-      <img className='bg_img'src={headerPic} alt='header_pic'/>
+      <img className='bg_img'src={headerPic()} alt='header_pic'/>
       <img className='icon' src={padiResortIcon} alt='padi_icon' />
     </div>
   )
