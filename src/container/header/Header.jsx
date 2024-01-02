@@ -6,7 +6,7 @@ import logo from '../../assets/img/diving-pinoy-high-resolution-logo-color-on-tr
 const Header = () => {
   // Random image for header
   const randomImages = [
-    '../../assets/img/headerPic.JPG',
+    '/images/header/headerPic.JPG',
     '/images/coursesImg/P3081028.JPG',
     '/images/diveSite/angolPoint/angolP4.JPG',
     '/images/diveSite/balinhai/b02.JPG',
