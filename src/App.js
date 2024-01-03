@@ -1,5 +1,7 @@
 import './App.css';
 import './index.css';
+// Chakra UI
+import { ChakraProvider } from '@chakra-ui/react'
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from './components/navbar/Navbar';
 import { Header, Footer } from './container';
@@ -10,6 +12,7 @@ import About from './pages/About/About';
 
 function App() {
   return (
+    
     <div className="App">
       <Navbar />
       <div className='bar'/>
