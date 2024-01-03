@@ -12,21 +12,22 @@ import About from './pages/About/About';
 
 function App() {
   return (
-    
-    <div className="App">
-      <Navbar />
-      <div className='bar'/>
-      <Header />
-      
-        <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/dive' element={<Dive />} />
-          {/* <Route path="/course-detail/:title_card" component={CourseDetail} /> */}
-          <Route path='/about' element={<About />} />
-        </Routes>
-      <div className='bar'/>
-      <Footer />
-    </div>
+    <ChakraProvider>
+      <div className="App">
+        <Navbar />
+        <div className='bar'/>
+        <Header />
+        
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/dive' element={<Dive />} />
+            {/* <Route path="/course-detail/:title_card" component={CourseDetail} /> */}
+            <Route path='/about' element={<About />} />
+          </Routes>
+        <div className='bar'/>
+        <Footer />
+      </div>
+    </ChakraProvider>  
   );
 }
 
