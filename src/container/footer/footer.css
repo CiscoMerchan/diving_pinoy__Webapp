@@ -21,7 +21,7 @@
   font-size: 62px;
   line-height: 75px;
   text-align: center;
-  letter-spacing: -0.04em;
+  letter-spacing: 0.04em;
   color: #FFF;
 }
 
@@ -36,6 +36,9 @@
   margin-bottom: 10rem;
   cursor: pointer;
 }
+.webapp__footer-btn:hover {
+  background: #FFF;
+}
 
 .webapp__footer-btn p {
  
@@ -45,6 +48,9 @@
   line-height: 21px;
   color: #FFF;
   word-spacing: 2px;
+}
+.webapp__footer-btn p:hover {
+ color: var(--color-bg);
 }
 
 .webapp__footer-links {
