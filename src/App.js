@@ -7,6 +7,7 @@ import { Header, Footer } from './container';
 import Home from './pages/Home/Home';
 import Dive from './pages/Dive/Dive';
 import About from './pages/About/About';
+import Contact from './pages/Contact/Contact';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path='/dive' element={<Dive />} />
           {/* <Route path="/course-detail/:title_card" component={CourseDetail} /> */}
           <Route path='/about' element={<About />} />
+          <Route path='/contact' element={<Contact />} />
         </Routes>
       <div className='bar'/>
       <Footer />
