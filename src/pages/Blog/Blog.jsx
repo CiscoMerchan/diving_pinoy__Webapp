@@ -2,7 +2,12 @@ import React from 'react'
 import './Blog.css'
 const Blog = () => {
   return (
-    <div>Blog</div>
+    <div>
+        <div>
+            {/* Last 3 Blog as a  */}
+            
+        </div>
+    </div>
   )
 }
 
