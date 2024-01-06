@@ -2,7 +2,7 @@ import React from 'react'
 import './Contact.css'
 // Component Form with Chakra UI
 import ContactForm from '../../components/contact_form/ContactForm'
-import * as ReactDOM from 'react-dom/client'
+
 import { Box } from '@chakra-ui/react'
 const Contact = () => {
   return (
