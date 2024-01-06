@@ -1,51 +1,96 @@
-import React from 'react'
-import './ContactForm.css'
-import { useForm } from 'react-hook-form'
+import React from 'react';
+import './ContactForm.css';
+import { useForm } from 'react-hook-form';
 import {
   FormErrorMessage,
   FormLabel,
   FormControl,
   Input,
   Button,
-} from '@chakra-ui/react'
-const ContactForm = () => {
-  
-    const {   handleSubmit,
-        register,
-        formState: { errors, isSubmitting },
-      } = useForm()
-    
-      function onSubmit(values) {
-        return new Promise((resolve) => {
-          setTimeout(() => {
-            alert(JSON.stringify(values, null, 2))
-            resolve()
-          }, 3000)
-        })
-      }
-    
-      return (
-        <form onSubmit={handleSubmit(onSubmit)}>
-          <FormControl isInvalid={errors.name}>
-            <FormLabel htmlFor='name'>First name</FormLabel>
-            <Input
-              id='name'
-              placeholder='name'
-              {...register('name', {
-                required: 'This is required',
-                minLength: { value: 4, message: 'Minimum length should be 4' },
-              })}
-            />
-            <FormErrorMessage>
-              {errors.name && errors.name.message}
-            </FormErrorMessage>
-          </FormControl>
-          <Button mt={4} colorScheme='teal' isLoading={isSubmitting} type='submit'>
-            Submit
-          </Button>
-        </form>
-    
-  )
-}
+  Textarea,
+} from '@chakra-ui/react';
 
-export default ContactForm
+const ContactForm = () => {
+  const {
+    handleSubmit,
+    register,
+    formState: { errors, isSubmitting },
+  } = useForm();
+
+  function onSubmit(values) {
+    return new Promise((resolve) => {
+      setTimeout(() => {
+        alert(JSON.stringify(values, null, 2));
+        resolve();
+      }, 3000);
+    });
+  }
+
+  return (
+    <form onSubmit={handleSubmit(onSubmit)}>
+      <FormControl isInvalid={errors.name} mb={4}>
+        <FormLabel style={{ color: '#fff', fontSize: '16px' }} htmlFor='name'>First name</FormLabel>
+        <Input
+          id='name'
+          placeholder='First Name'
+          {...register('name', {
+            required: 'This field is required',
+            minLength: { value: 4, message: 'Minimum length should be 4' },
+          })}
+        />
+        <FormErrorMessage>{errors.name?.message}</FormErrorMessage>
+      </FormControl>
+
+      {/* Add Last Name */}
+      <FormControl isInvalid={errors.lastName} mb={4}>
+        <FormLabel style={{ color: '#fff', fontSize: '16px' }} htmlFor='lastName'>Last Name</FormLabel>
+        <Input
+          id='lastName'
+          placeholder='Last Name'
+          {...register('lastName', {
+            required: 'This field is required',
+            minLength: { value: 2, message: 'Minimum length should be 2' },
+          })}
+        />
+        <FormErrorMessage>{errors.lastName?.message}</FormErrorMessage>
+      </FormControl>
+
+      {/* Add Email */}
+      <FormControl isInvalid={errors.email} mb={4}>
+        <FormLabel  style={{ color: '#fff', fontSize: '16px' }} htmlFor='email'>Email</FormLabel>
+        <Input
+          type='email'
+          id='email'
+          placeholder='Email'
+          {...register('email', {
+            required: 'This field is required',
+            pattern: {
+              value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i,
+              message: 'Invalid email address',
+            },
+          })}
+        />
+        <FormErrorMessage>{errors.email?.message}</FormErrorMessage>
+      </FormControl>
+
+      {/* Add Message */}
+      <FormControl isInvalid={errors.message} mb={4}>
+        <FormLabel style={{ color: '#fff', fontSize: '16px' }} htmlFor='message'>Message</FormLabel>
+        <Textarea
+          id='message'
+          placeholder='Your Message'
+          {...register('message', {
+            required: 'This field is required',
+          })}
+        />
+        <FormErrorMessage>{errors.message?.message}</FormErrorMessage>
+      </FormControl>
+
+      <Button mt={4} colorScheme='teal' isLoading={isSubmitting} type='submit'>
+        Submit
+      </Button>
+    </form>
+  );
+};
+
+export default ContactForm;
