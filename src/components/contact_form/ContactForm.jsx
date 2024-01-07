@@ -17,13 +17,25 @@ const ContactForm = () => {
     formState: { errors, isSubmitting },
   } = useForm();
 
-  function onSubmit(values) {
-    return new Promise((resolve) => {
-      setTimeout(() => {
-        alert(JSON.stringify(values, null, 2));
-        resolve();
-      }, 3000);
-    });
+  async function onSubmit(values) {
+    try {
+      const response = await fetch('http://localhost:3001/api/send-email', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(values),
+      });
+
+      if (response.ok) {
+        alert('Email sent successfully!');
+      } else {
+        const data = await response.json();
+        alert(`Error sending email: ${data.error}`);
+      }
+    } catch (error) {
+      console.error('Error sending email:', error);
+    }
   }
 
   return (
