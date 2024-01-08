@@ -91,7 +91,7 @@ const ContactForm = () => {
       <FormControl isInvalid={errors.message} mb={4}>
         <FormLabel style={{ color: '#fff', fontSize: '16px' }} htmlFor='message'>Message</FormLabel>
         <Textarea
-          style={{ height: '200px'}}
+          style={{ height: '200px', color: '#fff', fontSize: '16px'}}
           id='message'
           placeholder='Your Message'
           {...register('message', {
