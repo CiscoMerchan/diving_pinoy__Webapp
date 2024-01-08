@@ -58,6 +58,7 @@ const ContactForm = () => {
       <FormControl isInvalid={errors.lastName} mb={4}>
         <FormLabel style={{ color: '#fff', fontSize: '16px' }} htmlFor='lastName'>Last Name</FormLabel>
         <Input
+          style={{ color: '#fff', fontSize: '16px' }}
           id='lastName'
           placeholder='Last Name'
           {...register('lastName', {
