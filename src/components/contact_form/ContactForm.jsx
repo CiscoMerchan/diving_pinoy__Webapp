@@ -71,6 +71,7 @@ const ContactForm = () => {
       <FormControl isInvalid={errors.email} mb={4}>
         <FormLabel  style={{ color: '#fff', fontSize: '16px' }} htmlFor='email'>Email</FormLabel>
         <Input
+          style={{ color: '#fff', fontSize: '16px' }}
           type='email'
           id='email'
           placeholder='Email'
