@@ -43,6 +43,7 @@ const ContactForm = () => {
       <FormControl isInvalid={errors.name} mb={4}>
         <FormLabel style={{ color: '#fff', fontSize: '16px' }} htmlFor='name'>First name</FormLabel>
         <Input
+          style={{ color: '#fff', fontSize: '16px' }}
           id='name'
           placeholder='First Name'
           {...register('name', {
@@ -57,6 +58,7 @@ const ContactForm = () => {
       <FormControl isInvalid={errors.lastName} mb={4}>
         <FormLabel style={{ color: '#fff', fontSize: '16px' }} htmlFor='lastName'>Last Name</FormLabel>
         <Input
+          style={{ color: '#fff', fontSize: '16px' }}
           id='lastName'
           placeholder='Last Name'
           {...register('lastName', {
@@ -71,6 +73,7 @@ const ContactForm = () => {
       <FormControl isInvalid={errors.email} mb={4}>
         <FormLabel  style={{ color: '#fff', fontSize: '16px' }} htmlFor='email'>Email</FormLabel>
         <Input
+          style={{ color: '#fff', fontSize: '16px' }}
           type='email'
           id='email'
           placeholder='Email'
@@ -89,6 +92,7 @@ const ContactForm = () => {
       <FormControl isInvalid={errors.message} mb={4}>
         <FormLabel style={{ color: '#fff', fontSize: '16px' }} htmlFor='message'>Message</FormLabel>
         <Textarea
+          style={{ height: '200px', color: '#fff', fontSize: '16px'}}
           id='message'
           placeholder='Your Message'
           {...register('message', {
