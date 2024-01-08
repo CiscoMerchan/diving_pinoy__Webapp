@@ -1,5 +1,5 @@
 // server.js
-require('dotenv').config(); // Load environment variables from .env file
+require('dotenv').config();
 const express = require('express');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
@@ -10,17 +10,18 @@ const port = process.env.PORT || 3001;
 app.use(bodyParser.json());
 
 // Function to send email
-const sendEmail = ({ email, name, lastName, message }) => {
+const sendEmail = async ({ email, name, lastName, message }) => {
   const transporter = nodemailer.createTransport({
-    service: 'gmail', 
-      user: process.env.EMAIL_SERVICE_API_KEY,
-      pass: process.env.EMAIL_SERVICE_SECRET,
-    });
-  };
+    service: 'gmail',
+    auth: {
+      user: process.env.GMAIL_USER, 
+      pass: process.env.GMAIL_PASSWORD, 
+    },
+  });
 
   const mailOptions = {
-    from: email,
-    to: process.env.MY_EMAIL,
+    from: process.env.GMAIL_USER,
+    to: process.env.MY_EMAIL, // Receiving email address
     subject: 'Subject of the email',
     text: `Name: ${name}\nLast Name: ${lastName}\nMessage: ${message}`,
   };
@@ -34,7 +35,7 @@ const sendEmail = ({ email, name, lastName, message }) => {
       }
     });
   });
-
+};
 
 app.post('/api/send-email', async (req, res) => {
   try {
